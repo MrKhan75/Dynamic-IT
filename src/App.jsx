@@ -2,7 +2,8 @@
 import './App.css';
 import Banner from './Component/Header/Banner';
 import Navbar from './Component/Header/Navbar';
-import About from './Component/Main/About';
+// import About from './Component/Main/About';
+import PriceOption from './Component/PriceOption/PriceOption';
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
               <Banner></Banner>
            </div>
            <div className="main">
-              <About></About>
+              {/* <About></About> */}
+              <PriceOption></PriceOption>
            </div>
         </div>
     </div>
