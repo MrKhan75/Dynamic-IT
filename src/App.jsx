@@ -4,6 +4,7 @@ import Banner from './Component/Header/Banner';
 import Navbar from './Component/Header/Navbar';
 // import About from './Component/Main/About';
 import PriceOption from './Component/PriceOption/PriceOption';
+import Charts from './Component/Charts/Charts';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
            <div className="main">
               {/* <About></About> */}
               <PriceOption></PriceOption>
+              <Charts></Charts>
            </div>
         </div>
     </div>
