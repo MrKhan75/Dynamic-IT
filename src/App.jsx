@@ -5,6 +5,7 @@ import Navbar from './Component/Header/Navbar';
 // import About from './Component/Main/About';
 import PriceOption from './Component/PriceOption/PriceOption';
 import Charts from './Component/Charts/Charts';
+import NewData from './Component/PhonesInfo/Phones';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
               {/* <About></About> */}
               <PriceOption></PriceOption>
               <Charts></Charts>
+              <NewData></NewData>
            </div>
         </div>
     </div>
